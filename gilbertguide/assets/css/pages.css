@@ -537,74 +537,74 @@ body, #container-wrap { background:#ededed; }
 	top:-3px !important;
 }
 
-#item905 {
-	width:71px !important;
-	height:71px !important;
-	left:241px !important;
-	top:362px !important;
+#item6441 {
+	width:291px !important;
+	height:31px !important;
+	left:42px !important;
+	top:48px !important;
 }
 
-#item912 {
-	width:69px !important;
-	left:242px !important;
-	top:436px !important;
+#item6446 {
+	width:72px !important;
+	height:72px !important;
+	left:8px !important;
+	top:10px !important;
+}
+
+#item6449 {
+	width:70px !important;
+	left:9px !important;
+	top:86px !important;
 	min-height:26px !important;
 }
 
-#item939 {
-	width:251px !important;
-	height:27px !important;
-	left:62px !important;
-	top:55px !important;
-}
-
-#item948 {
-	width:91px !important;
-	height:111px !important;
+#item6477 {
+	width:92px !important;
+	height:112px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item945 {
+#item6474 {
 	width:97px !important;
 	height:117px !important;
-	left:230px !important;
-	top:349px !important;
+	left:-3px !important;
+	top:-3px !important;
 }
 
 #item430 {
-	width:1232px !important;
-	left:24px !important;
-	top:24px !important;
-	min-height:764px !important;
+	width:1220px !important;
+	left:30px !important;
+	top:30px !important;
+	min-height:749px !important;
 }
 
-#item792 {
-	width:327px !important;
-	left:24px !important;
-	top:24px !important;
-	min-height:628px !important;
+#item6485 {
+	width:335px !important;
+	left:20px !important;
+	top:20px !important;
+	min-height:634px !important;
 }
 
 #item1110 {
-	width:636px !important;
-	left:68px !important;
-	top:43px !important;
-	min-height:297px !important;
+	width:610px !important;
+	left:298px !important;
+	top:30px !important;
+	min-height:217px !important;
 }
 
 #item1137 {
-	width:72px !important;
-	left:706px !important;
-	top:537px !important;
-	min-height:18px !important;
+	width:103px !important;
+	left:298px !important;
+	top:682px !important;
+	min-height:25px !important;
 }
 
 #item1162 {
 	width:375px !important;
 	height:85px !important;
-	left:696px !important;
-	top:595px !important;
+	left:839px !important;
+	top:618px !important;
 	background:#fff;
 	padding:10px;
 }
@@ -617,364 +617,359 @@ body, #container-wrap { background:#ededed; }
 	0% {opacity:0;}
 	100% {opacity:1;}
 }
-#item1008 {
-	width:355px !important;
-	left:10px !important;
+#item6522 {
+	width:335px !important;
+	left:20px !important;
 	top:20px !important;
-	min-height:147px !important;
+	min-height:136px !important;
 }
 
-#item1036 {
-	width:72px !important;
-	left:10px !important;
-	top:449px !important;
-	min-height:18px !important;
+#item6548 {
+	width:50px !important;
+	left:21px !important;
+	top:407px !important;
+	min-height:13px !important;
 }
 
-#item1061 {
+#item6573 {
 	width:375px !important;
 	height:85px !important;
-	top:507px !important;
+	left:386px !important;
+	top:552px !important;
 	background:#fff;
 	padding:10px;
 }
 
-@keyframes fadein-1061 {
+@keyframes fadein-6573 {
 	0% {opacity:0;}
 	100% {opacity:1;}
 }
-@-webkit-keyframes fadein-1061 {
+@-webkit-keyframes fadein-6573 {
 	0% {opacity:0;}
 	100% {opacity:1;}
 }
 #item2565 {
-	width:355px !important;
-	left:463px !important;
-	top:87px !important;
-	min-height:144px !important;
+	width:716px !important;
+	left:51px !important;
+	top:70px !important;
+	min-height:52px !important;
 }
 
 #item3088 {
-	width:190px !important;
-	left:164px !important;
-	top:40px !important;
-	min-height:179px !important;
+	width:428px !important;
+	top:334px !important;
+	min-height:323px !important;
 }
 
 #item3113 {
-	width:259px !important;
-	min-height:43px !important;
+	width:428px !important;
+	min-height:86px !important;
 }
 
 #item2947 {
-	width:190px !important;
-	left:164px !important;
-	top:40px !important;
-	min-height:161px !important;
+	width:428px !important;
+	top:207px !important;
+	min-height:323px !important;
 }
 
 #item2972 {
-	width:188px !important;
-	min-height:43px !important;
+	width:380px !important;
+	min-height:86px !important;
 }
 
 #item2827 {
-	width:190px !important;
-	left:164px !important;
-	top:40px !important;
-	min-height:161px !important;
+	width:428px !important;
+	top:257px !important;
+	min-height:288px !important;
 }
 
 #item2852 {
-	width:171px !important;
-	min-height:43px !important;
+	width:345px !important;
+	min-height:86px !important;
 }
 
 #item2734 {
-	width:190px !important;
-	left:164px !important;
-	top:40px !important;
-	min-height:179px !important;
+	width:428px !important;
+	top:287px !important;
+	min-height:359px !important;
 }
 
 #item2759 {
-	width:203px !important;
-	min-height:43px !important;
+	width:410px !important;
+	min-height:86px !important;
 }
 
 #item2595 {
-	width:190px !important;
-	left:164px !important;
-	top:40px !important;
-	min-height:179px !important;
+	width:428px !important;
+	top:257px !important;
+	min-height:359px !important;
 }
 
 #item2669 {
-	width:195px !important;
-	min-height:43px !important;
+	width:393px !important;
+	min-height:86px !important;
 }
 
 #item2592 {
-	width:354px !important;
-	height:455px !important;
-	left:463px !important;
-	top:206px !important;
+	width:1156px !important;
+	height:641px !important;
+	left:94px !important;
+	top:129px !important;
 }
 
 #item3149 {
-	width:45px !important;
-	height:65px !important;
-	left:3px !important;
-	top:3px !important;
+	width:91px !important;
+	height:131px !important;
+	left:2px !important;
+	top:2px !important;
 }
 
 #item3146 {
-	width:51px !important;
-	height:71px !important;
-	left:470px !important;
-	top:199px !important;
+	width:96px !important;
+	height:136px !important;
+	left:69px !important;
+	top:300px !important;
 }
 
 #item3154 {
-	width:60px !important;
-	height:87px !important;
-	left:3px !important;
-	top:3px !important;
+	width:121px !important;
+	height:176px !important;
+	left:2px !important;
+	top:2px !important;
 }
 
 #item3151 {
-	width:66px !important;
-	height:93px !important;
-	left:522px !important;
-	top:209px !important;
+	width:126px !important;
+	height:181px !important;
+	left:174px !important;
+	top:321px !important;
 }
 
 #item3158 {
-	width:86px !important;
-	height:77px !important;
-	left:3px !important;
-	top:3px !important;
+	width:174px !important;
+	height:155px !important;
+	left:2px !important;
+	top:2px !important;
 }
 
 #item3155 {
-	width:92px !important;
-	height:83px !important;
-	left:594px !important;
-	top:204px !important;
+	width:179px !important;
+	height:160px !important;
+	left:319px !important;
+	top:311px !important;
 }
 
 #item3162 {
-	width:45px !important;
-	height:51px !important;
-	left:3px !important;
-	top:3px !important;
+	width:91px !important;
+	height:103px !important;
+	left:2px !important;
+	top:2px !important;
 }
 
 #item3159 {
-	width:51px !important;
-	height:57px !important;
-	left:692px !important;
-	top:214px !important;
+	width:96px !important;
+	height:108px !important;
+	left:516px !important;
+	top:331px !important;
 }
 
 #item3166 {
-	width:45px !important;
-	height:53px !important;
-	left:3px !important;
-	top:3px !important;
+	width:91px !important;
+	height:106px !important;
+	left:2px !important;
+	top:2px !important;
 }
 
 #item3163 {
-	width:51px !important;
-	height:58px !important;
-	left:776px !important;
-	top:359px !important;
+	width:96px !important;
+	height:111px !important;
+	left:686px !important;
+	top:623px !important;
 }
 
-#item1924 {
-	width:355px !important;
-	left:10px !important;
+#item6615 {
+	width:335px !important;
+	left:20px !important;
 	top:20px !important;
-	min-height:144px !important;
+	min-height:40px !important;
 }
 
-#item2449 {
-	width:190px !important;
-	left:164px !important;
+#item7136 {
+	width:181px !important;
+	left:155px !important;
 	top:40px !important;
-	min-height:179px !important;
+	min-height:184px !important;
 }
 
-#item2474 {
+#item7161 {
 	width:259px !important;
-	min-height:43px !important;
+	min-height:39px !important;
 }
 
-#item2309 {
-	width:190px !important;
-	left:164px !important;
+#item6995 {
+	width:181px !important;
+	left:155px !important;
 	top:40px !important;
-	min-height:161px !important;
+	min-height:167px !important;
 }
 
-#item2334 {
+#item7020 {
 	width:188px !important;
-	min-height:43px !important;
+	min-height:39px !important;
 }
 
-#item2189 {
-	width:190px !important;
-	left:164px !important;
+#item6875 {
+	width:181px !important;
+	left:155px !important;
 	top:40px !important;
-	min-height:161px !important;
+	min-height:154px !important;
 }
 
-#item2214 {
+#item6901 {
 	width:171px !important;
-	min-height:43px !important;
+	min-height:39px !important;
 }
 
-#item2095 {
-	width:190px !important;
-	left:164px !important;
+#item6782 {
+	width:181px !important;
+	left:155px !important;
 	top:40px !important;
-	min-height:179px !important;
+	min-height:172px !important;
 }
 
-#item2120 {
+#item6807 {
 	width:203px !important;
-	min-height:43px !important;
+	min-height:39px !important;
 }
 
-#item1955 {
+#item6644 {
 	width:190px !important;
-	left:164px !important;
+	left:155px !important;
 	top:40px !important;
-	min-height:179px !important;
+	min-height:172px !important;
 }
 
-#item2030 {
+#item6718 {
 	width:195px !important;
-	min-height:43px !important;
+	left:10px !important;
+	min-height:39px !important;
 }
 
-#item1952 {
-	width:354px !important;
-	height:455px !important;
+#item6641 {
+	width:349px !important;
+	height:459px !important;
 	left:11px !important;
 	top:139px !important;
 }
 
-#item2510 {
+#item7196 {
 	width:45px !important;
 	height:65px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item2506 {
+#item7193 {
 	width:51px !important;
 	height:71px !important;
 	left:18px !important;
 	top:132px !important;
 }
 
-#item2514 {
+#item7201 {
 	width:60px !important;
 	height:87px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item2511 {
+#item7197 {
 	width:66px !important;
 	height:93px !important;
 	left:70px !important;
 	top:143px !important;
 }
 
-#item2518 {
+#item7205 {
 	width:86px !important;
 	height:77px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item2515 {
+#item7202 {
 	width:92px !important;
 	height:83px !important;
 	left:142px !important;
 	top:138px !important;
 }
 
-#item2522 {
+#item7209 {
 	width:45px !important;
 	height:51px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item2519 {
+#item7206 {
 	width:51px !important;
 	height:57px !important;
 	left:239px !important;
 	top:148px !important;
 }
 
-#item2526 {
+#item7213 {
 	width:45px !important;
 	height:53px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item2523 {
+#item7210 {
 	width:51px !important;
 	height:58px !important;
 	left:323px !important;
 	top:292px !important;
 }
 
-#item3274 {
-	width:375px !important;
-	height:492px !important;
-	left:453px !important;
-	top:77px !important;
-	background:#c2d3e7;
+#item7923 {
+	width:317px !important;
+	left:-796px !important;
+	top:-132px !important;
+	min-height:333px !important;
 }
 
-#item3280 {
-	width:233px !important;
-	height:462px !important;
-	left:463px !important;
-	top:97px !important;
-}
-
-#item3282 {
-	width:222px !important;
-	background:rgba(255,255,255,0.4);
-	min-height:3088px !important;
-	padding:5px 15px 5px 5px;
-}
-
-#item3230 {
-	width:375px !important;
-	height:492px !important;
-	top:10px !important;
-	background:#c2d3e7;
-}
-
-#item3239 {
-	width:233px !important;
-	height:462px !important;
-	left:10px !important;
+#item8091 {
+	width:592px !important;
+	height:740px !important;
+	left:30px !important;
 	top:30px !important;
 }
 
-#item3241 {
+#item8101 {
+	width:576px !important;
+	background:rgba(255,255,255,0.4);
+	min-height:1617px !important;
+	padding:30px;
+}
+
+#item7221 {
+	width:375px !important;
+	height:502px !important;
+	background:#c2d3e7;
+}
+
+#item7226 {
+	width:233px !important;
+	height:627px !important;
+	left:20px !important;
+	top:20px !important;
+}
+
+#item7227 {
 	width:222px !important;
 	background:rgba(255,255,255,0.4);
-	min-height:3088px !important;
+	min-height:1009px !important;
 	padding:5px 15px 5px 5px;
 }
 
@@ -1023,28 +1018,7 @@ body, #container-wrap { background:#ededed; }
 	top:77px !important;
 }
 
-#item3733 {
-	width:72px !important;
-	left:727px !important;
-	top:706px !important;
-	min-height:18px !important;
-}
-
-#item3761 {
-	width:87px !important;
-	height:42px !important;
-	left:3px !important;
-	top:3px !important;
-}
-
-#item3758 {
-	width:92px !important;
-	height:48px !important;
-	left:738px !important;
-	top:679px !important;
-}
-
-#item3413 {
+#item7333 {
 	opacity:0.70;
 	width:125px !important;
 	height:156px !important;
@@ -1052,13 +1026,13 @@ body, #container-wrap { background:#ededed; }
 	padding:20px;
 }
 
-#item3396 {
+#item7321 {
 	width:125px !important;
 	height:156px !important;
 	top:10px !important;
 }
 
-#item3453 {
+#item7369 {
 	opacity:0.70;
 	width:125px !important;
 	height:156px !important;
@@ -1066,14 +1040,14 @@ body, #container-wrap { background:#ededed; }
 	padding:20px;
 }
 
-#item3438 {
+#item7358 {
 	width:125px !important;
 	height:156px !important;
 	left:250px !important;
 	top:10px !important;
 }
 
-#item3495 {
+#item7407 {
 	opacity:0.70;
 	width:125px !important;
 	height:156px !important;
@@ -1081,28 +1055,28 @@ body, #container-wrap { background:#ededed; }
 	padding:20px;
 }
 
-#item3478 {
+#item7394 {
 	width:125px !important;
 	height:156px !important;
 	left:125px !important;
 	top:10px !important;
 }
 
-#item3522 {
+#item7433 {
 	width:72px !important;
 	left:275px !important;
 	top:640px !important;
 	min-height:18px !important;
 }
 
-#item3550 {
+#item7462 {
 	width:87px !important;
 	height:42px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item3547 {
+#item7459 {
 	width:92px !important;
 	height:48px !important;
 	left:286px !important;
@@ -1129,7 +1103,7 @@ body, #container-wrap { background:#ededed; }
 	width:355px !important;
 	left:463px !important;
 	top:88px !important;
-	min-height:201px !important;
+	min-height:195px !important;
 }
 
 #item4104 {
@@ -1167,90 +1141,88 @@ body, #container-wrap { background:#ededed; }
 	top:669px !important;
 }
 
-#item4220 {
+#item7469 {
 	width:375px !important;
 	height:667px !important;
 	top:-20px !important;
 	background:#556c7a;
 }
 
-#item4222 {
+#item7470 {
 	width:375px !important;
 	height:270px !important;
 	top:222px !important;
 	background:#3a5566;
 }
 
-#item4224 {
+#item7471 {
 	width:355px !important;
 	left:10px !important;
 	top:22px !important;
-	min-height:201px !important;
+	min-height:195px !important;
 }
 
-#item4249 {
+#item7496 {
 	width:278px !important;
 	left:47px !important;
 	top:507px !important;
 	min-height:80px !important;
 }
 
-#item4274 {
+#item7521 {
 	width:72px !important;
 	left:47px !important;
 	top:460px !important;
 	min-height:18px !important;
 }
 
-#item4305 {
+#item7553 {
 	width:72px !important;
 	left:293px !important;
 	top:630px !important;
 	min-height:18px !important;
 }
 
-#item4333 {
+#item7581 {
 	width:87px !important;
 	height:42px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item4330 {
+#item7578 {
 	width:92px !important;
 	height:48px !important;
 	left:286px !important;
 	top:602px !important;
 }
 
-@keyframes flyinfrombottom-4380 {
-	0% {transform:translate(0px,0px);}
-	100% {transform:translate(6px,-1243px);}
-}
-@-webkit-keyframes flyinfrombottom-4380 {
-	0% {-webkit-transform:translate(0px,0px);}
-	100% {-webkit-transform:translate(6px,-1243px);}
-}
 #item4382 {
-	width:355px !important;
+	width:576px !important;
 	background:rgba(255,255,255,0.8);
-	min-height:585px !important;
+	min-height:626px !important;
 	padding:14px;
 }
 
-@keyframes flyinfrombottom-4456 {
-	0% {transform:translate(0px,0px);}
-	100% {transform:translate(6px,-1243px);}
+#item4410 {
+	width:43px !important;
+	height:43px !important;
+	left:522px !important;
+	top:16px !important;
 }
-@-webkit-keyframes flyinfrombottom-4456 {
-	0% {-webkit-transform:translate(0px,0px);}
-	100% {-webkit-transform:translate(6px,-1243px);}
-}
-#item4457 {
+
+#item7596 {
 	width:355px !important;
 	background:rgba(255,255,255,0.8);
-	min-height:585px !important;
+	min-height:571px !important;
 	padding:14px;
+}
+
+#item7624 {
+	width:34px !important;
+	height:34px !important;
+	left:311px !important;
+	top:526px !important;
 }
 #in5footer,  #prefooter {display:none;}
 
