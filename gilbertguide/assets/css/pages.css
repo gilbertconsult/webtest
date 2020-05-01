@@ -425,9 +425,23 @@ body, #container-wrap { background:#ededed; }
 	.paper-vertical .page, .paper-horizontal .page, .anythingSlider-in5 { padding:0;top:0;border:0; }
 	.paper-vertical, .paper-horizontal { padding:0; }
 }
+#item247 {
+	width:93px !important;
+	left:12px !important;
+	top:114px !important;
+	min-height:35px !important;
+}
+
+#item285 {
+	width:122px !important;
+	height:149px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
 #item282 {
-	width:138px !important;
-	height:163px !important;
+	width:128px !important;
+	height:155px !important;
 	left:-3px !important;
 	top:-3px !important;
 }
@@ -464,7 +478,7 @@ body, #container-wrap { background:#ededed; }
 	width:327px !important;
 	left:24px !important;
 	top:24px !important;
-	min-height:631px !important;
+	min-height:628px !important;
 }
 #in5footer,  #prefooter {display:none;}
 
