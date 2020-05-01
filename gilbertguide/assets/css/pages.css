@@ -416,7 +416,39 @@ body, #container-wrap { background:#ededed; }
 #slider { width:1280px; height:800px; }
 .page-scale-wrap { width:1280px; height:800px; background: #fff !important; }
 .paper-vertical { width:1280px; height:100%; }
-.paper-horizontal { width:3330px; height:812px; }
+.paper-horizontal { width:13320px; height:812px; }
+/* ColorBox Core Style:The following CSS is consistent between example themes and should not be altered. */
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling:touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box;}
+/* Colorbox User Style: */
+#colorbox{
+	border-radius:12px;
+    box-shadow:0 0 10px 10px #CCCCCC;
+}
+    #colorbox, #cboxOverlay, #cboxContent, .cboxIframe, #cboxLoadedContent, #cboxLoadingOverlay { background:#fff; }
+    #cboxContent{ overflow:hidden;}
+    #cboxMiddleLeft, #cboxMiddleRight { width:8px; }
+    #cboxTopCenter{ height:24px; } 
+    #cboxBottomCenter { height:8px; }
+	#cboxError{padding:50px;}
+	#cboxLoadedContent{margin-top:28px;}
+	#cboxTitle, #cboxCurrent { position:absolute; top:4px; left:0; color:#949494; }
+	#cboxTitle{ text-align:center; width:100%; }
+	#cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+	#cboxPrevious, #cboxNext { position:absolute; top:50%; margin-top:-32px; width:33px; height:65px; text-indent:-9999px;}
+	#cboxPrevious{left:0px; background:url(../images/lb_controls.png) no-repeat top left; }
+	#cboxNext{right:0px; background:url(../images/lb_controls.png) no-repeat top right; }
+	#cboxLoadingGraphic{background:url(../images/loading.gif) no-repeat center center;}
+	#cboxClose{position:absolute; top:2px; right:0px; display:block; background:url(../images/lb_controls.png) no-repeat top center; width:26px; height:24px; text-indent:-9999px;}
 @media all and (max-height:800px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
@@ -425,6 +457,65 @@ body, #container-wrap { background:#ededed; }
 	.paper-vertical .page, .paper-horizontal .page, .anythingSlider-in5 { padding:0;top:0;border:0; }
 	.paper-vertical, .paper-horizontal { padding:0; }
 }
+.flipwrap {
+	-webkit-perspective:800px;
+	perspective:800px;
+	-webkit-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+}
+.mso.flipcard-side,.mso.flipcard-up {
+	width:100% !important;
+	height:100% !important;
+}
+.flipwrap > .mso > .state {
+	-webkit-transition:-webkit-transform 1s;
+	transition:transform 1s;
+}
+.mso.flipcard-side > .state, .mso.flipcard-up > .state {
+	display:block;
+	opacity:1;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	pointer-events:auto;
+}
+.mso.flipcard-side > .state:nth-child(2) {
+	-webkit-transform:rotateY(180deg);
+	transform:rotateY(180deg);
+}
+.mso.flipped.flipcard-side > .state:nth-child(2), .mso.flipcard-side > .state:nth-child(1) {
+	-webkit-transform:rotateY(0deg);
+	transform:rotateY(0deg);
+}
+.mso.flipped.flipcard-side > .state:nth-child(1) {
+	-webkit-transform:rotateY(-180deg);
+	transform:rotateY(-180deg);
+}
+.mso.flipcard-up > .state:nth-child(2) {
+	-webkit-transform:rotateX(-180deg);
+	transform:rotateX(-180deg);
+}
+.mso.flipped.flipcard-up > .state:nth-child(2), .mso.flipcard-up > .state:nth-child(1) {
+	-webkit-transform:rotateX(0deg);
+	transform:rotateX(0deg);
+}
+.mso.flipped.flipcard-up > .state:nth-child(1) {
+	-webkit-transform:rotateX(180deg);
+	transform:rotateX(180deg);
+}
+#item274 {
+	width:501px !important;
+	height:54px !important;
+	left:720px !important;
+	top:428px !important;
+}
+
+#item237 {
+	width:96px !important;
+	height:96px !important;
+	left:11px !important;
+	top:13px !important;
+}
+
 #item247 {
 	width:93px !important;
 	left:12px !important;
@@ -446,11 +537,25 @@ body, #container-wrap { background:#ededed; }
 	top:-3px !important;
 }
 
+#item905 {
+	width:71px !important;
+	height:71px !important;
+	left:241px !important;
+	top:362px !important;
+}
+
 #item912 {
 	width:69px !important;
 	left:242px !important;
 	top:436px !important;
 	min-height:26px !important;
+}
+
+#item939 {
+	width:251px !important;
+	height:27px !important;
+	left:62px !important;
+	top:55px !important;
 }
 
 #item948 {
@@ -479,6 +584,673 @@ body, #container-wrap { background:#ededed; }
 	left:24px !important;
 	top:24px !important;
 	min-height:628px !important;
+}
+
+#item1110 {
+	width:636px !important;
+	left:68px !important;
+	top:43px !important;
+	min-height:297px !important;
+}
+
+#item1137 {
+	width:72px !important;
+	left:706px !important;
+	top:537px !important;
+	min-height:18px !important;
+}
+
+#item1162 {
+	width:375px !important;
+	height:85px !important;
+	left:696px !important;
+	top:595px !important;
+	background:#fff;
+	padding:10px;
+}
+
+@keyframes fadein-1162 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes fadein-1162 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+#item1008 {
+	width:355px !important;
+	left:10px !important;
+	top:20px !important;
+	min-height:147px !important;
+}
+
+#item1036 {
+	width:72px !important;
+	left:10px !important;
+	top:449px !important;
+	min-height:18px !important;
+}
+
+#item1061 {
+	width:375px !important;
+	height:85px !important;
+	top:507px !important;
+	background:#fff;
+	padding:10px;
+}
+
+@keyframes fadein-1061 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes fadein-1061 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+#item2565 {
+	width:355px !important;
+	left:463px !important;
+	top:87px !important;
+	min-height:144px !important;
+}
+
+#item3088 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:179px !important;
+}
+
+#item3113 {
+	width:259px !important;
+	min-height:43px !important;
+}
+
+#item2947 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:161px !important;
+}
+
+#item2972 {
+	width:188px !important;
+	min-height:43px !important;
+}
+
+#item2827 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:161px !important;
+}
+
+#item2852 {
+	width:171px !important;
+	min-height:43px !important;
+}
+
+#item2734 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:179px !important;
+}
+
+#item2759 {
+	width:203px !important;
+	min-height:43px !important;
+}
+
+#item2595 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:179px !important;
+}
+
+#item2669 {
+	width:195px !important;
+	min-height:43px !important;
+}
+
+#item2592 {
+	width:354px !important;
+	height:455px !important;
+	left:463px !important;
+	top:206px !important;
+}
+
+#item3149 {
+	width:45px !important;
+	height:65px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item3146 {
+	width:51px !important;
+	height:71px !important;
+	left:470px !important;
+	top:199px !important;
+}
+
+#item3154 {
+	width:60px !important;
+	height:87px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item3151 {
+	width:66px !important;
+	height:93px !important;
+	left:522px !important;
+	top:209px !important;
+}
+
+#item3158 {
+	width:86px !important;
+	height:77px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item3155 {
+	width:92px !important;
+	height:83px !important;
+	left:594px !important;
+	top:204px !important;
+}
+
+#item3162 {
+	width:45px !important;
+	height:51px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item3159 {
+	width:51px !important;
+	height:57px !important;
+	left:692px !important;
+	top:214px !important;
+}
+
+#item3166 {
+	width:45px !important;
+	height:53px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item3163 {
+	width:51px !important;
+	height:58px !important;
+	left:776px !important;
+	top:359px !important;
+}
+
+#item1924 {
+	width:355px !important;
+	left:10px !important;
+	top:20px !important;
+	min-height:144px !important;
+}
+
+#item2449 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:179px !important;
+}
+
+#item2474 {
+	width:259px !important;
+	min-height:43px !important;
+}
+
+#item2309 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:161px !important;
+}
+
+#item2334 {
+	width:188px !important;
+	min-height:43px !important;
+}
+
+#item2189 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:161px !important;
+}
+
+#item2214 {
+	width:171px !important;
+	min-height:43px !important;
+}
+
+#item2095 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:179px !important;
+}
+
+#item2120 {
+	width:203px !important;
+	min-height:43px !important;
+}
+
+#item1955 {
+	width:190px !important;
+	left:164px !important;
+	top:40px !important;
+	min-height:179px !important;
+}
+
+#item2030 {
+	width:195px !important;
+	min-height:43px !important;
+}
+
+#item1952 {
+	width:354px !important;
+	height:455px !important;
+	left:11px !important;
+	top:139px !important;
+}
+
+#item2510 {
+	width:45px !important;
+	height:65px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item2506 {
+	width:51px !important;
+	height:71px !important;
+	left:18px !important;
+	top:132px !important;
+}
+
+#item2514 {
+	width:60px !important;
+	height:87px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item2511 {
+	width:66px !important;
+	height:93px !important;
+	left:70px !important;
+	top:143px !important;
+}
+
+#item2518 {
+	width:86px !important;
+	height:77px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item2515 {
+	width:92px !important;
+	height:83px !important;
+	left:142px !important;
+	top:138px !important;
+}
+
+#item2522 {
+	width:45px !important;
+	height:51px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item2519 {
+	width:51px !important;
+	height:57px !important;
+	left:239px !important;
+	top:148px !important;
+}
+
+#item2526 {
+	width:45px !important;
+	height:53px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item2523 {
+	width:51px !important;
+	height:58px !important;
+	left:323px !important;
+	top:292px !important;
+}
+
+#item3274 {
+	width:375px !important;
+	height:492px !important;
+	left:453px !important;
+	top:77px !important;
+	background:#c2d3e7;
+}
+
+#item3280 {
+	width:233px !important;
+	height:462px !important;
+	left:463px !important;
+	top:97px !important;
+}
+
+#item3282 {
+	width:222px !important;
+	background:rgba(255,255,255,0.4);
+	min-height:3088px !important;
+	padding:5px 15px 5px 5px;
+}
+
+#item3230 {
+	width:375px !important;
+	height:492px !important;
+	top:10px !important;
+	background:#c2d3e7;
+}
+
+#item3239 {
+	width:233px !important;
+	height:462px !important;
+	left:10px !important;
+	top:30px !important;
+}
+
+#item3241 {
+	width:222px !important;
+	background:rgba(255,255,255,0.4);
+	min-height:3088px !important;
+	padding:5px 15px 5px 5px;
+}
+
+#item3635 {
+	opacity:0.70;
+	width:125px !important;
+	height:156px !important;
+	background:#fff;
+	padding:20px;
+}
+
+#item3623 {
+	width:125px !important;
+	height:156px !important;
+	left:453px !important;
+	top:77px !important;
+}
+
+#item3671 {
+	opacity:0.70;
+	width:125px !important;
+	height:156px !important;
+	background:#fff;
+	padding:20px;
+}
+
+#item3660 {
+	width:125px !important;
+	height:156px !important;
+	left:703px !important;
+	top:77px !important;
+}
+
+#item3707 {
+	opacity:0.70;
+	width:125px !important;
+	height:156px !important;
+	background:#fff;
+	padding:20px;
+}
+
+#item3696 {
+	width:125px !important;
+	height:156px !important;
+	left:578px !important;
+	top:77px !important;
+}
+
+#item3733 {
+	width:72px !important;
+	left:727px !important;
+	top:706px !important;
+	min-height:18px !important;
+}
+
+#item3761 {
+	width:87px !important;
+	height:42px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item3758 {
+	width:92px !important;
+	height:48px !important;
+	left:738px !important;
+	top:679px !important;
+}
+
+#item3413 {
+	opacity:0.70;
+	width:125px !important;
+	height:156px !important;
+	background:#fff;
+	padding:20px;
+}
+
+#item3396 {
+	width:125px !important;
+	height:156px !important;
+	top:10px !important;
+}
+
+#item3453 {
+	opacity:0.70;
+	width:125px !important;
+	height:156px !important;
+	background:#fff;
+	padding:20px;
+}
+
+#item3438 {
+	width:125px !important;
+	height:156px !important;
+	left:250px !important;
+	top:10px !important;
+}
+
+#item3495 {
+	opacity:0.70;
+	width:125px !important;
+	height:156px !important;
+	background:#fff;
+	padding:20px;
+}
+
+#item3478 {
+	width:125px !important;
+	height:156px !important;
+	left:125px !important;
+	top:10px !important;
+}
+
+#item3522 {
+	width:72px !important;
+	left:275px !important;
+	top:640px !important;
+	min-height:18px !important;
+}
+
+#item3550 {
+	width:87px !important;
+	height:42px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item3547 {
+	width:92px !important;
+	height:48px !important;
+	left:286px !important;
+	top:612px !important;
+}
+
+#item4075 {
+	width:375px !important;
+	height:667px !important;
+	left:453px !important;
+	top:47px !important;
+	background:#556c7a;
+}
+
+#item4077 {
+	width:375px !important;
+	height:270px !important;
+	left:453px !important;
+	top:288px !important;
+	background:#3a5566;
+}
+
+#item4079 {
+	width:355px !important;
+	left:463px !important;
+	top:88px !important;
+	min-height:201px !important;
+}
+
+#item4104 {
+	width:278px !important;
+	left:499px !important;
+	top:573px !important;
+	min-height:80px !important;
+}
+
+#item4130 {
+	width:72px !important;
+	left:499px !important;
+	top:527px !important;
+	min-height:18px !important;
+}
+
+#item4167 {
+	width:72px !important;
+	left:745px !important;
+	top:696px !important;
+	min-height:18px !important;
+}
+
+#item4195 {
+	width:87px !important;
+	height:42px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item4192 {
+	width:92px !important;
+	height:48px !important;
+	left:738px !important;
+	top:669px !important;
+}
+
+#item4220 {
+	width:375px !important;
+	height:667px !important;
+	top:-20px !important;
+	background:#556c7a;
+}
+
+#item4222 {
+	width:375px !important;
+	height:270px !important;
+	top:222px !important;
+	background:#3a5566;
+}
+
+#item4224 {
+	width:355px !important;
+	left:10px !important;
+	top:22px !important;
+	min-height:201px !important;
+}
+
+#item4249 {
+	width:278px !important;
+	left:47px !important;
+	top:507px !important;
+	min-height:80px !important;
+}
+
+#item4274 {
+	width:72px !important;
+	left:47px !important;
+	top:460px !important;
+	min-height:18px !important;
+}
+
+#item4305 {
+	width:72px !important;
+	left:293px !important;
+	top:630px !important;
+	min-height:18px !important;
+}
+
+#item4333 {
+	width:87px !important;
+	height:42px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item4330 {
+	width:92px !important;
+	height:48px !important;
+	left:286px !important;
+	top:602px !important;
+}
+
+@keyframes flyinfrombottom-4380 {
+	0% {transform:translate(0px,0px);}
+	100% {transform:translate(6px,-1243px);}
+}
+@-webkit-keyframes flyinfrombottom-4380 {
+	0% {-webkit-transform:translate(0px,0px);}
+	100% {-webkit-transform:translate(6px,-1243px);}
+}
+#item4382 {
+	width:355px !important;
+	background:rgba(255,255,255,0.8);
+	min-height:585px !important;
+	padding:14px;
+}
+
+@keyframes flyinfrombottom-4456 {
+	0% {transform:translate(0px,0px);}
+	100% {transform:translate(6px,-1243px);}
+}
+@-webkit-keyframes flyinfrombottom-4456 {
+	0% {-webkit-transform:translate(0px,0px);}
+	100% {-webkit-transform:translate(6px,-1243px);}
+}
+#item4457 {
+	width:355px !important;
+	background:rgba(255,255,255,0.8);
+	min-height:585px !important;
+	padding:14px;
 }
 #in5footer,  #prefooter {display:none;}
 
