@@ -840,7 +840,7 @@ body, #container-wrap { background:#ededed; }
 	left:3px !important;
 	top:3px !important;
 	background:#4c4c4c;
-	outline:solid 1px #00aa32;
+	outline:solid 1px #4c4c4c;
 }
 
 #item9586 {
@@ -1290,6 +1290,27 @@ body, #container-wrap { background:#ededed; }
 	height:190px !important;
 	left:427px !important;
 	top:41px !important;
+}
+
+#item10324 {
+	width:72px !important;
+	left:1160px !important;
+	top:753px !important;
+	min-height:18px !important;
+}
+
+#item10352 {
+	width:87px !important;
+	height:42px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item10349 {
+	width:92px !important;
+	height:48px !important;
+	left:1161px !important;
+	top:726px !important;
 }
 
 #item7333 {
