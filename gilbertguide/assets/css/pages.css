@@ -693,126 +693,126 @@ body, #container-wrap { background:#ededed; }
 
 @keyframes custom-9805 {
 	0% {transform:translate(0px,0px);}
-	100% {transform:translate(-360px,0px);}
+	100% {transform:translate(-195px,0px);}
 }
 @-webkit-keyframes custom-9805 {
 	0% {-webkit-transform:translate(0px,0px);}
-	100% {-webkit-transform:translate(-360px,0px);}
+	100% {-webkit-transform:translate(-195px,0px);}
 }
 #item9593 {
-	width:220px !important;
+	width:196px !important;
 	height:555px !important;
-	background:#00aa32;
+	background:#4c4c4c;
 	outline:solid 1px #00aa32;
 }
 
 #item9615 {
-	width:219px !important;
+	width:195px !important;
 	height:50px !important;
-	left:3px !important;
-	top:2px !important;
-	background:#00aa32;
+	left:2px !important;
+	top:3px !important;
+	background:#4c4c4c;
 	padding:0px 0px 0px 40px;
 }
 
 #item9626 {
-	width:224px !important;
+	width:200px !important;
 	height:53px !important;
 	left:-2px !important;
 	top:370px !important;
 }
 
 #item9651 {
-	width:219px !important;
+	width:195px !important;
 	height:50px !important;
-	left:3px !important;
+	left:2px !important;
 	top:3px !important;
-	background:#00aa32;
+	background:#4c4c4c;
 	padding:0px 0px 0px 40px;
 }
 
 #item9655 {
-	width:224px !important;
+	width:200px !important;
 	height:53px !important;
 	left:-2px !important;
 	top:318px !important;
 }
 
 #item9680 {
-	width:219px !important;
+	width:195px !important;
 	height:50px !important;
-	left:3px !important;
+	left:2px !important;
 	top:3px !important;
-	background:#00aa32;
+	background:#4c4c4c;
 	padding:0px 0px 0px 40px;
 }
 
 #item9684 {
-	width:224px !important;
+	width:200px !important;
 	height:53px !important;
 	left:-2px !important;
 	top:266px !important;
 }
 
 #item9709 {
-	width:219px !important;
+	width:195px !important;
 	height:50px !important;
-	left:3px !important;
+	left:2px !important;
 	top:3px !important;
-	background:#00aa32;
+	background:#4c4c4c;
 	padding:0px 0px 0px 40px;
 }
 
 #item9713 {
-	width:224px !important;
+	width:200px !important;
 	height:53px !important;
 	left:-2px !important;
 	top:214px !important;
 }
 
 #item9738 {
-	width:219px !important;
+	width:195px !important;
 	height:50px !important;
-	left:3px !important;
+	left:2px !important;
 	top:3px !important;
-	background:#00aa32;
+	background:#4c4c4c;
 	padding:0px 0px 0px 40px;
 }
 
 #item9742 {
-	width:224px !important;
+	width:200px !important;
 	height:53px !important;
 	left:-2px !important;
 	top:162px !important;
 }
 
 #item9767 {
-	width:219px !important;
+	width:195px !important;
 	height:50px !important;
-	left:3px !important;
-	top:3px !important;
-	background:#00aa32;
+	left:2px !important;
+	top:2px !important;
+	background:#4c4c4c;
 	padding:0px 0px 0px 40px;
 }
 
 #item9771 {
-	width:224px !important;
+	width:200px !important;
 	height:53px !important;
 	left:-2px !important;
 	top:110px !important;
 }
 
 #item9796 {
-	width:219px !important;
+	width:195px !important;
 	height:50px !important;
-	left:3px !important;
-	top:2px !important;
-	background:#00aa32;
+	left:2px !important;
+	top:3px !important;
+	background:#4c4c4c;
 	padding:0px 0px 0px 40px;
 }
 
 #item9800 {
-	width:224px !important;
+	width:200px !important;
 	height:53px !important;
 	left:-2px !important;
 	top:58px !important;
@@ -839,7 +839,7 @@ body, #container-wrap { background:#ededed; }
 	height:25px !important;
 	left:3px !important;
 	top:3px !important;
-	background:#00aa32;
+	background:#4c4c4c;
 	outline:solid 1px #00aa32;
 }
 
@@ -850,34 +850,39 @@ body, #container-wrap { background:#ededed; }
 	top:-2px !important;
 }
 
-#item6485 {
+#item10217 {
 	width:335px !important;
+	height:533px !important;
 	left:20px !important;
 	top:20px !important;
-	min-height:521px !important;
+}
+
+#item10218 {
+	width:335px !important;
+	min-height:629px !important;
 }
 
 #item1110 {
 	width:610px !important;
-	left:298px !important;
+	left:158px !important;
 	top:70px !important;
 	min-height:217px !important;
 }
 
 #item1137 {
 	width:103px !important;
-	left:298px !important;
+	left:158px !important;
 	top:722px !important;
 	min-height:25px !important;
 }
 
 #item1162 {
-	width:375px !important;
-	height:85px !important;
-	left:839px !important;
-	top:618px !important;
+	width:246px !important;
+	height:389px !important;
+	left:896px !important;
+	top:324px !important;
 	background:#fff;
-	padding:10px;
+	padding:20px;
 }
 
 @keyframes fadein-1162 {
@@ -898,17 +903,16 @@ body, #container-wrap { background:#ededed; }
 #item6548 {
 	width:50px !important;
 	left:21px !important;
-	top:407px !important;
+	top:387px !important;
 	min-height:13px !important;
 }
 
 #item6573 {
 	width:375px !important;
-	height:85px !important;
-	left:386px !important;
-	top:552px !important;
+	height:115px !important;
+	top:419px !important;
 	background:#fff;
-	padding:10px;
+	padding:20px;
 }
 
 @keyframes fadein-6573 {
@@ -1329,6 +1333,27 @@ body, #container-wrap { background:#ededed; }
 	left:125px !important;
 }
 
+#item10132 {
+	width:133px !important;
+	left:195px !important;
+	top:520px !important;
+	min-height:26px !important;
+}
+
+#item10160 {
+	width:144px !important;
+	height:53px !important;
+	left:3px !important;
+	top:3px !important;
+}
+
+#item10157 {
+	width:149px !important;
+	height:58px !important;
+	left:229px !important;
+	top:498px !important;
+}
+
 #item4075 {
 	width:1280px !important;
 	height:800px !important;
@@ -1411,25 +1436,25 @@ body, #container-wrap { background:#ededed; }
 	min-height:62px !important;
 }
 
-#item7553 {
-	width:72px !important;
-	left:293px !important;
-	top:630px !important;
-	min-height:18px !important;
+#item10165 {
+	width:117px !important;
+	left:242px !important;
+	top:526px !important;
+	min-height:21px !important;
 }
 
-#item7581 {
-	width:87px !important;
-	height:42px !important;
+#item10193 {
+	width:126px !important;
+	height:43px !important;
 	left:3px !important;
 	top:3px !important;
 }
 
-#item7578 {
-	width:92px !important;
+#item10190 {
+	width:132px !important;
 	height:48px !important;
-	left:286px !important;
-	top:602px !important;
+	left:246px !important;
+	top:508px !important;
 }
 
 #item4382 {
