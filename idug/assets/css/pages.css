@@ -523,8 +523,8 @@ body, #container-wrap { background:#ededed; }
 }
 
 #item776 {
-	width:1920px !important;
-	height:612px !important;
+	width:1921px !important;
+	height:613px !important;
 	top:262px !important;
 }
 
@@ -536,10 +536,10 @@ body, #container-wrap { background:#ededed; }
 }
 
 #item834 {
-	width:1840px !important;
+	width:1099px !important;
 	left:40px !important;
 	top:2416px !important;
-	min-height:47px !important;
+	min-height:217px !important;
 }
 
 #item882 {
@@ -561,6 +561,13 @@ body, #container-wrap { background:#ededed; }
 	height:190px !important;
 	left:1336px !important;
 	top:1531px !important;
+}
+
+#item1237 {
+	width:914px !important;
+	height:1316px !important;
+	left:185px !important;
+	top:2698px !important;
 }
 
 p.autoParaStyle1 {
