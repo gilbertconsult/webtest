@@ -424,11 +424,6 @@ body, #container-wrap { background:#ededed; }
 	.paper-vertical .page, .paper-horizontal .page, .anythingSlider-in5 { padding:0;top:0;border:0; }
 	.paper-vertical, .paper-horizontal { padding:0; }
 }
-@font-face {
-	font-family:FF-MinionPro-Regular;
-	src:url("../fonts/MinionPro-Regular.otf");
-}
-
 #item451 {
 	width:108px !important;
 	left:1151px !important;
@@ -534,10 +529,10 @@ body, #container-wrap { background:#ededed; }
 }
 
 #item808 {
-	width:1840px !important;
+	width:1099px !important;
 	left:40px !important;
 	top:1862px !important;
-	min-height:297px !important;
+	min-height:397px !important;
 }
 
 #item834 {
@@ -548,10 +543,10 @@ body, #container-wrap { background:#ededed; }
 }
 
 #item882 {
-	width:1655px !important;
+	width:1099px !important;
 	left:40px !important;
 	top:973px !important;
-	min-height:527px !important;
+	min-height:727px !important;
 }
 
 p.autoParaStyle1 {
@@ -620,7 +615,7 @@ p.Menu {
 }
 
 p.Basic-Paragraph {
-	font-family:FF-MinionPro-Regular,"Minion Pro","Times New Roman", Times, serif;
+	font-family:"Minion Pro","Times New Roman", Times, serif;
 	font-size:12px;
 	line-height:14.4px;
 	color:#000;
