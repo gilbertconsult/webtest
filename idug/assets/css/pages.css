@@ -538,7 +538,7 @@ body, #container-wrap { background:#ededed; }
 #item834 {
 	width:1840px !important;
 	left:40px !important;
-	top:2760px !important;
+	top:2416px !important;
 	min-height:47px !important;
 }
 
@@ -547,6 +547,20 @@ body, #container-wrap { background:#ededed; }
 	left:40px !important;
 	top:973px !important;
 	min-height:727px !important;
+}
+
+#item1064 {
+	width:289px !important;
+	height:115px !important;
+	left:1336px !important;
+	top:1360px !important;
+}
+
+#item1070 {
+	width:329px !important;
+	height:190px !important;
+	left:1336px !important;
+	top:1531px !important;
 }
 
 p.autoParaStyle1 {
