@@ -420,72 +420,14 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 body, #container-wrap { background:#ededed; }
 :-webkit-full-screen { background:#ededed; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
-#slider { width:1024px; height:768px; }
-.page-scale-wrap { width:1024px; height:768px; background: #fff !important; }
-.paper-vertical { width:1024px; height:100%; }
-.paper-horizontal { width:778px; height:780px; }
-nav#page-nav { display:none; }
-html.nav-transition nav#page-nav { opacity:.3; pointer-events:none; }
-nav#page-nav > button {
-	display:block; position:fixed;
-	left:0;
-	top:50%;
-	width:68px;
-	height:68px;
-	margin:-34px 0 0 0; /*.5 height*/
-	text-align:center;
-	outline:0;
-	background:url(../images/arrows-slider.svg) no-repeat;
-	opacity:.7;
-	will-change:transform;
-}	
-nav#page-nav > button:hover { opacity:1; }
-nav#page-nav > #backBtn { left:0; }
-html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#page-nav > #nextBtn { 
-	left:auto;
-	right:0; 
-	-ms-transform:scaleX(-1);
-	-moz-transform:scaleX(-1);
-	-webkit-transform:scaleX(-1);
-	transform:scaleX(-1);
-}
-/* ColorBox Core Style:The following CSS is consistent between example themes and should not be altered. */
-#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
-#cboxOverlay{position:fixed; width:100%; height:100%;}
-#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
-#cboxContent{position:relative;}
-#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling:touch;}
-#cboxTitle{margin:0;}
-#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
-#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
-.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none;}
-.cboxIframe{width:100%; height:100%; display:block; border:0;}
-#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box;}
-/* Colorbox User Style: */
-#colorbox{
-	border-radius:12px;
-    box-shadow:0 0 10px 10px #CCCCCC;
-}
-    #colorbox, #cboxOverlay, #cboxContent, .cboxIframe, #cboxLoadedContent, #cboxLoadingOverlay { background:#fff; }
-    #cboxContent{ overflow:hidden;}
-    #cboxMiddleLeft, #cboxMiddleRight { width:8px; }
-    #cboxTopCenter{ height:24px; } 
-    #cboxBottomCenter { height:8px; }
-	#cboxError{padding:50px;}
-	#cboxLoadedContent{margin-top:28px;}
-	#cboxTitle, #cboxCurrent { position:absolute; top:4px; left:0; color:#949494; }
-	#cboxTitle{ text-align:center; width:100%; }
-	#cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
-	#cboxPrevious, #cboxNext { position:absolute; top:50%; margin-top:-32px; width:33px; height:65px; text-indent:-9999px;}
-	#cboxPrevious{left:0px; background:url(../images/lb_controls.png) no-repeat top left; }
-	#cboxNext{right:0px; background:url(../images/lb_controls.png) no-repeat top right; }
-	#cboxLoadingGraphic{background:url(../images/loading.gif) no-repeat center center;}
-	#cboxClose{position:absolute; top:2px; right:0px; display:block; background:url(../images/lb_controls.png) no-repeat top center; width:26px; height:24px; text-indent:-9999px;}
-@media all and (max-height:768px) {
+.page-scale-wrap { width:792px; height:612px; background: #fff !important; }
+.paper-vertical { width:792px; height:100%; }
+.paper-horizontal { width:802px; height:624px; }
+@media all and (max-height:612px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
 }
-@media all and (max-width:1024px) {
+@media all and (max-width:792px) {
 	.paper-vertical .page, .paper-horizontal .page, .anythingSlider-in5 { padding:0;top:0;border:0; }
 	.paper-vertical, .paper-horizontal { padding:0; }
 }
@@ -505,10 +447,17 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	-webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-#item1271 {
-	width:130px !important;
-	height:96px !important;
-	left:608px !important;
-	top:156px !important;
+#item256 {
+	width:792px !important;
+	height:188px !important;
+	top:424px !important;
+	background:#000;
+}
+
+#item632 {
+	width:560px !important;
+	height:319px !important;
+	left:192px !important;
+	top:56px !important;
 }
 #in5footer,  #prefooter {display:none;}
